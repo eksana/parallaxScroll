@@ -33,9 +33,8 @@
 		<!--<link rel="stylesheet" href="css/main.css" />-->
 
 		<link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min" />
-		
-		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/parallax.css" />
+		<link rel="stylesheet" href="css/main.css" />
 		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>-->
 		<style type="text/css">
 			.myhome{
@@ -56,6 +55,29 @@
 				</div>
 			</div>
 		</header>
+		<div class="cd-select">
+			<label for="selectAnimation">Animation:</label>
+
+			<select class="animation" name="selectAnimation" id="selectAnimation">
+				<option value="index">None</option>
+				<option value="scaledown">scaleDown</option>
+				<option value="gallery">gallery</option>
+				<option value="catch">catch</option>
+				<option value="rotate">rotate</option>
+				<option value="opacity">opacity</option>
+				<option value="fixed">fixed</option>
+				<option value="parallax" selected>parallax</option>
+			</select>
+		</div> <!-- cd-select -->
+		<div class="cd-select">
+			<label for="selectHijacking">Hijacking:</label>
+
+			<select class="hijacking" name="selectHijacking" id="selectHijacking">
+				<option value="off">Off</option>
+				<option value="on" selected>On</option>
+			</select>
+		</div> <!-- cd-select -->
+	</div> <!-- cd-demo-settings -->
 		<body data-hijacking="off" data-animation="scaleDown">
 		<section class="cd-section">
 			<!--<div class="container ">
@@ -82,29 +104,29 @@
 			</div>-->
 		</section>
 		<section class="cd-section">
-			<div class="container ">
+			<!--<div class="container ">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12">-->
 						<div>
 							<h2>Section 4</h2>
 						</div>
 						
-					</div>
+					<!--</div>
 				</div>
-			</div>
+			</div>-->
 		</section>
 		<nav>
-	<ul class="cd-vertical-nav">
-		<li><a href="#0" class="cd-prev inactive">Next</a></li>
-		<li><a href="#0" class="cd-next">Prev</a></li>
-	</ul>
-</nav> <!-- .cd-vertical-nav -->
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+	</nav> <!-- .cd-vertical-nav -->
 		<footer>
 		</footer>
 		<script src="js/jquery-2.1.4.js"></script>
-<script src="js/velocity.min.js"></script>
-<script src="js/velocity.ui.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+		<script src="js/velocity.min.js"></script>
+		<script src="js/velocity.ui.min.js"></script>
+		<script src="js/main.js"></script> <!-- Resource jQuery -->
 	</body>
 	</html>
 	
